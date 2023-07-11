@@ -1,0 +1,56 @@
+header{
+    top: 0px;
+    padding: 1px;
+    background-color: rgb(148, 103, 148);
+    color: azure;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+#maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.place{
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(117, 190, 192);
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow:  5px 5px 5px black;
+}
+
+.place img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.place h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(219, 188, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#end{
+  margin-left: 900px;
+  bottom: 50px;
+  font-size: 20px;
+}
+
+footer{
+    padding: 1px;
+    position:relative;
+    bottom:0px;
+    background-color: rgb(148, 103, 148);
+    color: azure;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
